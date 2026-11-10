@@ -680,13 +680,8 @@ function tipn() {
 
 <script>
   function updateOfferDate() {
-    const tomorrow = new Date();
-    tomorrow.setDate(tomorrow.getDate() + 2);
-
-    const day = tomorrow.getDate();
-    const month = tomorrow.toLocaleString('en-GB', {
-      month: 'long'
-    });
+    const day = 12;
+    const month = 'December';
 
     let suffix = 'th';
 
@@ -702,7 +697,6 @@ function tipn() {
 
   updateOfferDate();
 </script>
-
 
 <script type="text/javascript">
 var time = 0;
